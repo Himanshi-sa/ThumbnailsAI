@@ -14,6 +14,7 @@ export default function RootLayout({ children }) {
   </div>
   <div className="flex-none">
     <ul className="menu menu-horizontal px-1">
+    <li><Link href="/register">Register</Link></li>
       <li><Link href="/login">Login</Link></li>
       
     </ul>
